@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+    <link rel="stylesheet" type="text/css" href="css/home%20page.css">
+
+</head>
+<body>
+<div class="wrapper">
+    <nav>
+        <div class="homePageImage">
+            <img src="./pic/主页面.png"width="33px" height="33px" >
+        </div>
+        <div class="myName">
+            <span style="font-size: 20px; color: white; font-family: Georgia, 'Times New Roman', Times, serif;">Jay Chou</span>
+        </div>
+        <div class="search">
+            <img src="./pic/放大镜.png"width="20px"height="20px">
+            <input type="text" placeholder="搜索" style="border-radius: 15px;">
+        </div>
+        <div class="navBottom">
+            <div class="label">
+                <a href="index.html" style="font-size: 18px; " >人物介绍</a>
+            </div>
+            <div class="label">
+                <a href="./html/music%20journey.html" style="font-size: 18px; " >音乐历程</a>
+            </div>
+            <div class="label">
+                <a href="./html/music%20works.html" style="font-size: 18px; " >音乐作品</a>
+            </div>
+            <div class="label">
+                <a href="./html/film%20works.html" style="font-size: 18px">影视作品</a>
+            </div>
+        </div>
+    </nav>
+    <div class="main">
+        <h1 style="position: absolute;top: 1px;left: 10px;color: grey">人物介绍</h1>
+        <div class="carousel">
+            <div class="carouselImage">
+                <div class="slides">
+                    <img src="./pic/周杰伦2.png" alt="Image 1" class="slide" width="480px" height="280px">
+                    <img src="./pic/周杰伦5.png" alt="Image 2" class="slide" width="480px" height="280px">
+                    <img src="./pic/周杰伦1.png" alt="Image 3" class="slide" width="480px" height="280px">
+                    <!-- 更多图片 -->
+                </div>
+                <div class="indicators">
+                    <span class="indicator" data-index="0"></span>
+                    <span class="indicator" data-index="1"></span>
+                    <span class="indicator" data-index="2"></span>
+                    <!-- 更多指示器 -->
+                </div>
+
+            </div>
+
+        </div>
+        <div class="mainRight">
+            <div class="rightImage">
+                <img src="pic/周杰伦介绍.png"width="200px" height="200px">
+            </div>
+            <p style="font-size: 16px;color: white;margin: 6px">   周杰伦（Jay Chou），1979年1月18日出生于中国台湾省新北市，华语流行乐男歌手、音乐人、演员、导演、编剧，毕业于淡江中学。</p>
+            <p style="font-size: 16px;color: white;margin: 6px">2000年，发行个人首张音乐专辑《Jay》 [26]。2001年，凭借专辑《范特西》奠定其融合中西方音乐的风格 [16]。2002年，举行“The One”世界巡回演唱会 [1]。2003年，成为美国《时代》杂志封面人物 [2]；同年，发行音乐专辑《叶惠美》 [21]，该专辑获得第15届台湾金曲奖最佳流行音乐演唱专辑奖 [23]。</p>
+
+        </div>
+        <div class="mainBottom1">
+            <div class="bottom1Image">
+                <img src="pic/周杰伦介绍4.png"width="270px" height="250px">
+            </div>
+            <div class="bottom1Word">
+                <p style="font-size: 16px;color: white;margin: 6px">无与伦比演唱会是继2002史上最强悍的音乐盛典‘THE ONE’演唱会之后，2004周杰伦‘无与伦比’演唱会所呈现的是最低调的华丽，是一场音乐最大、音乐至上的盛会，有从天而降超神的开场，也有原住民融合嘻哈的风潮，更有现场UNPLUGED的情歌演唱，当然也有不能缺少的中国风；时而华丽，时而低调，随着演唱会的进行，交错出一场精致又不失精彩的演唱会，周杰伦再为个人演唱会创下一个惊叹号。</p>
+            </div>
+        </div>
+        <div class="mainBottom2">
+            <div class="bottom2Image">
+                <img src="pic/周杰伦电影1.png"width="120px"height="120px"style="padding: 5px">
+                <img src="pic/周杰伦电影2.png"width="120px"height="120px"style="padding: 5px">
+                <img src="pic/周杰伦电影3.png"width="120px"height="120px"style="padding: 5px">
+            </div>
+            <p style="font-size: 16px;color: white;margin: 5px">周杰伦不仅在音乐领域施展才华，而且他也导演和参演了许许多多知名的电影，比如《头文字D》和《不能说的秘密等》，都获得了巨大成功。</p>
+        </div>
+    </div>
+    <div class="finally">
+        <span style="font-size: 13px;color: white;margin: 10px">Copyright &copy; 2024 Jello Hu</span>
+        <span style="font-size: 13px;color: white;margin: 10px">联系邮箱:15581689612@stu.cwnu.edu.cn</span>
+
+    </div>
+</div>
+
+<script src="./js/carousel%20chart.js"></script>
+<script src="js/login.js"></script>
+
+<div id="loginModal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <form id="loginForm">
+            <h2>登录</h2>
+            <div class="form-group">
+                <label for="username">用户名:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="form-group">
+                <label for="password">密码:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <button type="submit">一键登录</button>
+        </form>
+    </div>
+</div>
+</body>
+</html>
